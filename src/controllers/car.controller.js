@@ -18,7 +18,7 @@ exports.getAllCars = async (req, res) => {
      }
 }
 
-exports.getMyCar = async (req, res) => {
+exports.getMyCars = async (req, res) => {
      try {
           const { page, limit, skip } = getPagination(req);
 
